@@ -1,0 +1,66 @@
+.dflexBook {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000;
+
+}
+
+.dflexBook >h1{margin-bottom: 20px;color: #fff;}
+
+.dflexBookcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.dflexBookcontent > p {margin: 20px;color: #fff;}
+.dflexBookcontent > h1 {color: #fff;}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnkids{
+    margin: 20px;
+    text-align: center;
+}
+.btnsubtitle {
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: rgb(248, 217, 15);
+    color: #222;
+    border: 1px solid #fff;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .btnsubtitle a{text-decoration: none;}
+  
+  .btn-light {
+    background-color: transparent;
+    color: #fff;
+  
+  }
+  
+  .btnsubtitle:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    transition: 0.3s;
+  }
+.content .btnsubtitle{
+    margin: 1rem 0.2rem ;
+}
+
+.service-section{text-align: center;}
+.service-section h1 p{color: #fff;}

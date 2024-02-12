@@ -1,0 +1,21 @@
+{
+    "name": "My PWA App",
+    "short_name": "PWA App",
+    "start_url": "http://localhost:3000/",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "icons": [
+      {
+        "src": "/path/to/icon.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/path/to/icon512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
+  

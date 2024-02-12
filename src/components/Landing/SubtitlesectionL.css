@@ -1,0 +1,24 @@
+.dflex {
+    display: flex;
+    content: "";
+    width: 100%;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+.h1{
+    text-align: center;
+    padding-top: 5;
+}
+.p{
+    padding-top: 10;
+}
+.btnkids{
+    padding-top: 20px;
+    text-align: center;
+}
